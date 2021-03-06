@@ -33,7 +33,6 @@ stages:
     displayName: 'Deploy job'
     pool:
       vmImage: 'ubuntu-18.04'
-  
     steps:
     - task: AzureWebAppContainer@1
       inputs:
